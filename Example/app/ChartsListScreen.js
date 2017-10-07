@@ -6,10 +6,10 @@ import {
   StyleSheet,
   View,
   Text,
-  Navigator,
   processColor
 } from 'react-native';
 
+import {  Navigator } from 'react-native-deprecated-custom-components';
 import AxisLineChartScreen from './AxisLineChartScreen';
 import BarChartScreen from './BarChartScreen';
 import HorizontalBarChartScreen from './HorizontalBarChartScreen';
